@@ -11,7 +11,7 @@ def main():
     print(decrypted)
 main()
 ````
-Mình nhận thấy rằng từng vị trí trong xâu data trên sẽ được chuyển sang mã Unicode bằng hàm ord, sau đó sẽ được chuyển sang kí tự bằng hàm chr, tiếp đó sẽ XOR với mã Unicode của key. Cho nên chúng ta chỉ cần viết chương trình đơn giản để dịch ngược lại là xong.
+Mình nhận thấy rằng từng vị trí trong xâu data trên sẽ được chuyển sang mã Unicode bằng hàm ord, sau đó sẽ được chuyển sang kí tự bằng hàm chr, tiếp đó sẽ XOR với mã Unicode của key. Cho nên mình sẽ bruteforce để tìm flag.
 ````
 data = "bHEC_T]PLKJ{MW{AdW]Y"
 flag = ''
